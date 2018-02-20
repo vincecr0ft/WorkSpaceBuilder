@@ -17,6 +17,7 @@ m.add_nuisance_pars([list of values])
 ```
 
 These values are the gradients of a modification to the sample where `High` and `Low` variations are scaled by the poisson error of the sample as such:
+
 ![nuis](Nuis.png "nuis")
 
 channels are required to have a set number of bins and are defined as such:
